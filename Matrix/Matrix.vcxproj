@@ -149,7 +149,9 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="accumulate_iterator.h" />
     <ClInclude Include="matrix.h" />
+    <ClInclude Include="matrix_operation.h" />
     <ClInclude Include="skip_iterator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
